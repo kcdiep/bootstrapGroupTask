@@ -1,0 +1,27 @@
+/* .card {
+    width: 150px;
+    margin: 10px;
+}
+
+#cards {
+    height: 700px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Source+Code+Pro&display=swap');
+
+
+html, body {
+    width: 100%;
+    height: 100%; 
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#textStuff {
+    margin-right: 50px;
+}
+
