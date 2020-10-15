@@ -1,0 +1,54 @@
+                            /* .card {
+    width: 150px;
+    margin: 10px;
+}
+
+#cards {
+    height: 700px;
+} */
+                            
+                            @import url('@import url('https: //fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap);
+                            html,
+                            body {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            
+                            #picIntro {
+                                margin-left: 27%;
+                                margin-bottom: 10%;
+                            }
+                            
+                            #welcome {
+                                background-color: rgb(199, 199, 199);
+                                font-family: 'Staatliches', cursive;
+                            }
+                            
+                            .row {
+                                justify-content: center;
+                            }
+                            
+                            #jumbo {
+                                background-color: rgb(231, 231, 141);
+                                font-family: 'Sansita Swashed', cursive;
+                            }
+                            
+                            .container {
+                                margin-top: 50px;
+                                margin-bottom: 20px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                margin-right: 50px;
+                            }
+                            
+                            .video {
+                                margin-left: 20%;
+                                margin-top: 2.5%;
+                            }
+                            
+                            .card-body {
+                                background-color: rgb(231, 231, 141);
+                            }
+                            
+                            footer {
+                                text-align: center;
+                            }

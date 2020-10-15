@@ -1,5 +1,6 @@
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,43 +8,125 @@
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
 
-    
-<title>Page 2</title>
-  
+    <title>TravelsRUs</title>
+
 </head>
 
 
-  <body>
+<body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Group Project</a>
+        <a class="navbar-brand" href="#">TravelsRUs</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="page1.html">Germany</a>
-            <a class="nav-link" href="#">Page 2</a>
-            <a class="nav-link" href="#">Page 3</a>
-            <a class="nav-link" href="#">Page 4</a>
-            <a class="nav-link" href="#">Page 5</a>
-          </div>
+            <div class="navbar-nav">
+                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="page1.html">Japan</a>
+                <a class="nav-link" href="page2.html">Philippines</a>
+                <a class="nav-link" href="page3.html">Iceland</a>
+                <a class="nav-link" href="page4.html">Malaysia</a>
+                <a class="nav-link" href="page5.html">Malta</a>
+            </div>
         </div>
     </nav>
 
+    <div class="container text-center">
+        <div class="jumbotron" id="jumbo">
+            <h1 class="display-4">Philippines</h1>
+            <p class="lead">The Philippines is known for having an abundance of beautiful beaches and delicious fruit. It is an archipelago consisting of some 7,100 islands. The collection of islands is located in Southeast Asia and was named after King Philip II of
+                Spain.
+            </p>
+        </div>
+    </div>
+
+    <div class="container" id="pictures">
+        <div id="slideShow" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slideShow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideShow" data-slide-to="1"></li>
+                <li data-target="#slideShow" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/corondive.jpg" class="d-block w-100" alt="corondive">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Diving in Coron</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/boracay.jpg" class="d-block w-100" alt="boracay">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Boracay</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/elnido.jpg" class="d-block w-100" alt="elnido">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>El Nido</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#slideShow" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slideShow" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
 
-    
-    
-    
-    
-   
-    
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/cliff.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Boracay Island</h5>
+                    <p class="card-text">Ariel’s Point is a small rocky island 30 minutes from Boracay with 5 diving boards, ranging from 3 to 15 meters.</p>
+                    <a href="https://boracaycompass.com/things-to-do/" class="btn btn-primary">Boracay Activities</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/kayaking.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">El Nido, Palawan</h5>
+                    <p class="card-text">Grab your kayaks and get ready for the most breathtaking, jaw dropping, “I can’t believe this is real” day of your life. As you head out to Bacuit Bay, the most popular spot for kayaking, you’re going to want to hit 3 spots on your
+                        adventure: Big Lagoon, Small Lagoon, and Miniloc Island.
+                    </p>
+                    <a href="https://www.thecrazytourist.com/15-best-things-el-nido-philippines/" class="btn btn-primary">El Nido Activities</a>
+                </div>
+            </div>
+            <div class="card" style="width: 15.5rem;">
+                <img class="card-img-top" src="images/springs.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Coron Island</h5>
+                    <p class="card-text">Soaking in hot springs might sound a bit insane after I was just going on about the heat. Honestly, sitting in 39-41°C (102°F) sounded like the last thing we wanted to do, especially after having just climbed Mt. Tapyas.</p>
+                    <a href="https://luxeadventuretraveler.com/adventurous-things-to-do-in-coron-palawan/" class="btn btn-primary">Coron Activites</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4lqVdSZP6wQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
 
 
-  </body>
+
+
+
+
+
+        <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+
+
+</body>
+
 </html>
